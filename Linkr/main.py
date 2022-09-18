@@ -41,8 +41,11 @@ response=input("yes/no")
 if response=='yes':
    onelink=db.get()
    print(onelink.val())
+   Exit=input("Type 'e' to EXIT")
 else:
-    print("Thank You")   
+    print("Thank You") 
+    import time
+    time.sleep(5)
 
 
 
