@@ -1,14 +1,14 @@
 import pyrebase
 
 firebaseConfig={
-    'apiKey': "AIzaSyB6dA9F_hC2rh2CptOHdyjW5ILMlleiR9o",
-  'authDomain': "linksaver-36a0a.firebaseapp.com",
-  'databaseURL': "https://linksaver-36a0a-default-rtdb.asia-southeast1.firebasedatabase.app/",
-  'projectId': "linksaver-36a0a",
-  'storageBucket': "linksaver-36a0a.appspot.com",
-  'messagingSenderId': "305557677509",
-  'appId': "1:305557677509:web:09ea47872da613674ed7ac",
-  'measurementId': "G-L4530TBBN4"
+   'apiKey':config('API_KEY'),
+  'authDomain':config('AUTH_DOMAIN'), 
+  'databaseURL':config('DATABASE_URL'), 
+  'projectId':config('PROJECT_ID'),
+  'storageBucket':config('STORAGE_BUCKET'),
+  'messagingSenderId':config('MESSAGE_SEND_ID'),
+  'appId':config('APP_ID'),
+  'measurementId':config('MEASUREMENY_ID')
 }
 firebase=pyrebase.initialize_app(firebaseConfig)
 
