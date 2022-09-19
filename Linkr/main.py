@@ -1,7 +1,9 @@
 import pyrebase
+from time import time
+from decouple import config
 
 firebaseConfig={
-   'apiKey':config('API_KEY'),
+  'apiKey':config('API_KEY'),
   'authDomain':config('AUTH_DOMAIN'), 
   'databaseURL':config('DATABASE_URL'), 
   'projectId':config('PROJECT_ID'),
