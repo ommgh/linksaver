@@ -21,7 +21,7 @@ try:
     auth.sign_in_with_email_and_password(email,password)
     print("Logged In Sucessfully")
 except:
-   
+    print("No user exists,Signing you up")
     try:
         auth.create_user_with_email_and_password(email,password)
         print("New User Created Sucessfully")
@@ -41,11 +41,11 @@ response=input("yes/no")
 if response=='yes':
    onelink=db.get()
    print(onelink.val())
-   Exit=input("Type 'e' to EXIT")
+   Exit=input("Press 'e' to EXIT")
 else:
     print("Thank You") 
     import time
-    time.sleep(5)
+    time.sleep(3)
 
 
 
