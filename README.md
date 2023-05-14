@@ -19,4 +19,7 @@ This is a simple Python program that allows you to save links to Firebase and vi
 To save a link to Firebase, run the following command:
 
 1.You have enter your email address and password
-2.After being logged in you can save & view your links
+
+2.If You Are Already Registered You Will Be Logged In Otherwise You Account Will Be Created
+
+3.After being logged in you can save & view your links
