@@ -12,7 +12,7 @@ This is a simple Python program that allows you to save links to Firebase and vi
    pip install pyrebase
    ```
    
-   This program uses the `pyrebase` library to interact with Firebase from Python.
+This program uses the `pyrebase` library to interact with Firebase from Python.
    
 ## Usage
 
@@ -23,3 +23,5 @@ To save a link to Firebase, run the following command:
 2.If You Are Already Registered You Will Be Logged In Otherwise You Account Will Be Created
 
 3.After being logged in you can save & view your links
+
+The Chrome Extension:
